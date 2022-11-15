@@ -20,7 +20,7 @@
             "format": "uri"
           },
           "termValueDataType": {
-            "description": "Defines the data type of the feature or label value, on which the data preprocessin steps depend.",
+            "description": "Defines the data type of the feature or label value, on which the data preprocessing steps depend.",
             "type": ["integer", "number", "string"]
           }
         },
