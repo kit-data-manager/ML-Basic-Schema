@@ -74,7 +74,11 @@
             "$ref": "#/definitions/termDefinition"
           },
           "correspondingResource": {
-            "$ref": "#/definitions/externalLink"
+            "type": "string",
+            "enum": [
+              { "$ref": "#/definitions/externalLink" },
+              { "$ref": "#/definitions/checksum" }
+            ]
           }
         },
         "additionalProperties": true
@@ -102,7 +106,11 @@
             ]
           },
           "correspondingResource": {
-            "$ref": "#/definitions/externalLink"
+            "type": "string",
+            "enum": [
+              { "$ref": "#/definitions/externalLink" },
+              { "$ref": "#/definitions/checksum" }
+            ]
           },
           "additionalProperties": true
         }
