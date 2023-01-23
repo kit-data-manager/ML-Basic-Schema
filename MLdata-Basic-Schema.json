@@ -15,7 +15,7 @@
           "term": {
             "type": "string"
           },
-          "termDefinition": {
+          "definition": {
             "type": "string",
             "format": "uri"
           },
